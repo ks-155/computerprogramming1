@@ -13,7 +13,7 @@ int main() {
     // Read the user input
     scanf("%f", &rupees);
 
-    // Perform the conversion (note the division)
+    /* Perform the conversion (note the division)*/
     dollars = rupees / CONVERSION_RATE;
 
     // Display the result
