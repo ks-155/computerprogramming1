@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int i;
+
+    // Loop 5 times
+    for (i = 1; i <= 5; i++) {
+        printf("KRISH\n"); // Replace "KRISH" with your name
+    }
+
+    return 0;
+}
