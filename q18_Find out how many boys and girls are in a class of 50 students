@@ -30,5 +30,5 @@ int main() {
     printf("Total number of boys: %d\n", boys);
     printf("Total number of girls: %d\n", girls);
 
-    return 0;
-}
+    return 0; }
+
