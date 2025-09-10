@@ -15,7 +15,7 @@ int main() {
     printf("Separated digits: ");
 
 
-    while (num == 0) {
+    while (num != 0) {
 
         digit = num % 10;
         printf("%d ", digit);
