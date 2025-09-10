@@ -6,16 +6,15 @@ int main() {
     printf("Enter an integer: ");
     scanf("%d", &num);
 
-    original_num = num; // Store the original number
+    original_num = num; 
 
-    // Reverse the number
+
     while (num != 0) {
         digit = num % 10;
         reversed_num = reversed_num * 10 + digit;
         num = num / 10;
     }
 
-    // Check if the original number and reversed number are the same
     if (original_num == reversed_num) {
         printf("%d is a palindrome.\n", original_num);
     } else {
